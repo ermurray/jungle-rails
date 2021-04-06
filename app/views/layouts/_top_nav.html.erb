@@ -49,7 +49,7 @@
         </li>
        <div class="navbar-text">
         <% if current_user %>
-          Signed in as <%= current_user.name %> 
+          Signed in as <%= current_user.first_name %> 
           <button><%= link_to "Logout", '/logout' %> </button>
         <% else %>
           <button><%= link_to 'Login', '/login' %></button> 
