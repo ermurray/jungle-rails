@@ -2,7 +2,7 @@
 
 class ProductImageUploader < CarrierWave::Uploader::Base
 
-  # Include RMagick or MiniMagick support:
+  # Include rmagick or MiniMagick support:
   include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
 
